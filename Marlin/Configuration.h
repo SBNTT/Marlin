@@ -741,7 +741,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 805 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 800 }
 
 /**
  * Default Max Feed Rate (mm/s)
@@ -1758,7 +1758,7 @@
 // This option overrides the default number of encoder pulses needed to
 // produce one step. Should be increased for high-resolution encoders.
 //
-#define ENCODER_PULSES_PER_STEP 1
+#define ENCODER_PULSES_PER_STEP 5
 
 //
 // Use this option to override the number of step signals required to
